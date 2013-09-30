@@ -1,5 +1,5 @@
 Name:		puppet-corosync	
-Version:	0.5
+Version:	0.6
 Release:	1cisco%{?dist}
 Summary:	Puppet corosync module
 
@@ -38,6 +38,9 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{tmpname}/
 rm -rf %{buildroot}
 
 %changelog
+* Mon Sep 30 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.6-1cisco
+- Added license file (pkilambi@cisco.com)
+
 * Thu Jun 27 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.5-1cisco
 - 
 
